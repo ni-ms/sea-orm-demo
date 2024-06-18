@@ -6,3 +6,4 @@ edition = "2021"
 [dependencies]
 sea-orm = { version = "^0.12.0", features = [ "sqlx-sqlite", "runtime-async-std-native-tls", "macros" ] }
 futures = "0.3.30"
+sea-orm-migration = "1.0.0-rc.5"
